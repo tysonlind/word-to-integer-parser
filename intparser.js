@@ -36,7 +36,6 @@ function IntParser(str) {
 
   // Split the input string into an array of words
   const words = str.split(/\s|-/);
-  console.log(words);
 
   // Initialize a variable to store the final result
   let result = 0;
@@ -75,4 +74,4 @@ function IntParser(str) {
   return result;
 }
 
-console.log(spellOutToInt("one hundred eighteen thousand four hundred and three"));
+console.log(IntParser("one hundred eighteen thousand four hundred and three"));
